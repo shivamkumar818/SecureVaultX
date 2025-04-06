@@ -9,7 +9,7 @@ public class SendOTPService {
     public static void sendOtp(String email, String genOTP) {
         String to = email;
 
-        String from = "shivamm.kumar818@gmail.com";
+        String from = "//YOUR EMAIL//";
         String host = "smtp.gmail.com";
 
         Properties properties = System.getProperties();
@@ -21,7 +21,7 @@ public class SendOTPService {
         Session session = Session.getInstance(properties, new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(from, "kvbrwjzrqswdcevx");
+                return new PasswordAuthentication(from, "//YOUR APP PASSWORD//");
             }
         });
 
