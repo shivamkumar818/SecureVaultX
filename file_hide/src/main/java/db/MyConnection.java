@@ -13,7 +13,7 @@ public class MyConnection {
             connection = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/filehide?useSSL=false",
                     "root",
-                    "kholi143anuska"
+                    "password"
             );
         } catch (ClassNotFoundException | SQLException e) {
             throw new RuntimeException(e);
