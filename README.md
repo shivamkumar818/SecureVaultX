@@ -101,7 +101,7 @@ Unhide a file
 (Optional — Add screenshots or terminal outputs to show working UI)
 
 📬 Contact
-Author: Shivam Prasad
+Author: Shivam Kumar
 📧 prasadshivam818@gmail.com
 
 📝 License
